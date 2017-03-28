@@ -1,0 +1,56 @@
+site_name: OpenAPS Docs
+theme: spacelab
+
+pages:
+- Home: 'index.md'
+- Prepare:
+    - 'Overview': 'prep/overview.md'
+    - 'Get connected': 'prep/gitter.md'
+    - 'Test your pump': 'prep/settings.md'
+    - 'Buy the gear': 'prep/gear.md'
+    - 'Wifi Networks': 'prep/wifi.md'
+    - 'Mobile Hotspot': 'prep/hotspot.md'
+    - 'Linux Basics': 'prep/linux.md'
+    - 'GitHub and OpenAPS': 'prep/oref0.md'
+    - 'Navigating your rig': 'prep/file-structure.md'
+    - 'AMA, autosens, autotune': 'prep/advanced-features.md'
+    - 'Checklist': 'prep/checklist.md'
+- Nightscout:
+    - 'Overview': 'nightscout/overview.md'
+    - 'Setup New Site': 'nightscout/new_user.md'
+    - 'Update Site': 'nightscout/update_user.md'
+    - 'Azure to Heroku': 'nightscout/azure_migration.md'
+    - 'mLab': 'nightscout/mlab_cleanup.md'
+    - 'Remote Notifications': 'nightscout/pushover.md'
+    - 'Reports': 'nightscout/reports.md'
+- Rig:
+    - 'Overview': 'rig/overview.md'
+    - 'Rig assembly': 'rig/assembly.md'
+    - 'Edison flash': 'rig/flash.md'
+    - 'Edison setup': 'rig/prep.md'
+    - 'Wifi': 'rig/wifi.md'
+    - 'Troubleshoot': 'rig/troubleshooting.md'
+- openaps:
+    - 'Overview': 'myopenaps/overview.md'
+    - 'Install openaps': 'myopenaps/loop.md'
+    - 'Preferences': 'myopenaps/preferences.md'
+    - 'BT tether': 'myopenaps/bt-tether.md'
+    - 'Papertrail': 'myopenaps/papertrail.md'
+    - 'IFTTT': 'myopenaps/IFTTT.md'
+    - 'Aliases': 'myopenaps/alias.md'
+    - 'Troubleshoot': 'myopenaps/troubleshooting.md'
+- Use:
+    - 'Overview': 'use/overview.md'
+    - 'Login to rig': 'use/access.md'
+    - 'OpenAPS pill': 'use/openaps-pill.md'
+    - 'Papertrail': 'use/papertrail.md'
+    - 'Carb & Bolus': 'use/carbs.md'
+    - 'Priming and Sites': 'use/priming.md'
+    - 'Exercise': 'use/exercise.md'
+    - 'CGM Tips': 'use/cgm.md'
+    - 'Offline Looping': 'use/offline.md'
+    - 'Travel & Time Changes': 'use/travel.md'
+    - 'Updating loop': 'use/update.md'
+    - 'Multiple Rigs': 'use/multiple-rigs.md'
+    - 'OpenHumans': 'use/openhumans.md'
+
