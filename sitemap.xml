@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    
+    <url>
+     <loc>/</loc>
+     <lastmod>2017-03-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+        
+    <url>
+     <loc>/prep/overview/</loc>
+     <lastmod>2017-03-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/prep/gitter/</loc>
+     <lastmod>2017-03-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/prep/settings/</loc>
+     <lastmod>2017-03-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/prep/gear/</loc>
+     <lastmod>2017-03-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/prep/wifi/</loc>
+     <lastmod>2017-03-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/prep/hotspot/</loc>
+     <lastmod>2017-03-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/prep/linux/</loc>
+     <lastmod>2017-03-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/prep/oref0/</loc>
+     <lastmod>2017-03-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/prep/file-structure/</loc>
+     <lastmod>2017-03-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/prep/advanced-features/</loc>
+     <lastmod>2017-03-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/prep/checklist/</loc>
+     <lastmod>2017-03-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>/nightscout/overview/</loc>
+     <lastmod>2017-03-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/nightscout/new_user/</loc>
+     <lastmod>2017-03-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/nightscout/update_user/</loc>
+     <lastmod>2017-03-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/nightscout/azure_migration/</loc>
+     <lastmod>2017-03-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/nightscout/mlab_cleanup/</loc>
+     <lastmod>2017-03-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/nightscout/pushover/</loc>
+     <lastmod>2017-03-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/nightscout/reports/</loc>
+     <lastmod>2017-03-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>/rig/overview/</loc>
+     <lastmod>2017-03-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/rig/assembly/</loc>
+     <lastmod>2017-03-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/rig/flash/</loc>
+     <lastmod>2017-03-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/rig/prep/</loc>
+     <lastmod>2017-03-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/rig/wifi/</loc>
+     <lastmod>2017-03-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/rig/troubleshooting/</loc>
+     <lastmod>2017-03-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>/myopenaps/overview/</loc>
+     <lastmod>2017-03-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/myopenaps/loop/</loc>
+     <lastmod>2017-03-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/myopenaps/preferences/</loc>
+     <lastmod>2017-03-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/myopenaps/bt-tether/</loc>
+     <lastmod>2017-03-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/myopenaps/papertrail/</loc>
+     <lastmod>2017-03-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/myopenaps/IFTTT/</loc>
+     <lastmod>2017-03-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/myopenaps/alias/</loc>
+     <lastmod>2017-03-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/myopenaps/troubleshooting/</loc>
+     <lastmod>2017-03-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>/use/overview/</loc>
+     <lastmod>2017-03-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/use/access/</loc>
+     <lastmod>2017-03-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/use/openaps-pill/</loc>
+     <lastmod>2017-03-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/use/papertrail/</loc>
+     <lastmod>2017-03-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/use/carbs/</loc>
+     <lastmod>2017-03-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/use/priming/</loc>
+     <lastmod>2017-03-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/use/exercise/</loc>
+     <lastmod>2017-03-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/use/cgm/</loc>
+     <lastmod>2017-03-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/use/offline/</loc>
+     <lastmod>2017-03-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/use/travel/</loc>
+     <lastmod>2017-03-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/use/update/</loc>
+     <lastmod>2017-03-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/use/multiple-rigs/</loc>
+     <lastmod>2017-03-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/use/openhumans/</loc>
+     <lastmod>2017-03-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+</urlset>

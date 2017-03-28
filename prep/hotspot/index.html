@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+
+	<title>Mobile Hotspot - OpenAPS Docs</title>
+
+        <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome-4.0.3.css" rel="stylesheet">
+        <link rel="stylesheet" href="../../css/highlight.css">
+        <link href="../../css/base.css" rel="stylesheet">
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+        
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <!-- Main title -->
+            <a class="navbar-brand" href="../..">OpenAPS Docs</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+            <!-- Main navigation -->
+            <ul class="nav navbar-nav">
+            
+            
+                <li >
+                    <a href="../..">Home</a>
+                </li>
+            
+            
+            
+                <li class="dropdown active">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Prepare <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    
+                        
+<li >
+    <a href="../overview/">Overview</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../gitter/">Get connected</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../settings/">Test your pump</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../gear/">Buy the gear</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../wifi/">Wifi Networks</a>
+</li>
+
+                    
+                        
+<li class="active">
+    <a href="./">Mobile Hotspot</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../linux/">Linux Basics</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../oref0/">GitHub and OpenAPS</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../file-structure/">Navigating your rig</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../advanced-features/">AMA, autosens, autotune</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../checklist/">Checklist</a>
+</li>
+
+                    
+                    </ul>
+                </li>
+            
+            
+            
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Nightscout <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    
+                        
+<li >
+    <a href="../../nightscout/overview/">Overview</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../../nightscout/new_user/">Setup New Site</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../../nightscout/update_user/">Update Site</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../../nightscout/azure_migration/">Azure to Heroku</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../../nightscout/mlab_cleanup/">mLab</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../../nightscout/pushover/">Remote Notifications</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../../nightscout/reports/">Reports</a>
+</li>
+
+                    
+                    </ul>
+                </li>
+            
+            
+            
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Rig <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    
+                        
+<li >
+    <a href="../../rig/overview/">Overview</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../../rig/assembly/">Rig assembly</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../../rig/flash/">Edison flash</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../../rig/prep/">Edison setup</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../../rig/wifi/">Wifi</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../../rig/troubleshooting/">Troubleshoot</a>
+</li>
+
+                    
+                    </ul>
+                </li>
+            
+            
+            
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">openaps <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    
+                        
+<li >
+    <a href="../../myopenaps/overview/">Overview</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../../myopenaps/loop/">Install openaps</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../../myopenaps/preferences/">Preferences</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../../myopenaps/bt-tether/">BT tether</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../../myopenaps/papertrail/">Papertrail</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../../myopenaps/IFTTT/">IFTTT</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../../myopenaps/alias/">Aliases</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../../myopenaps/troubleshooting/">Troubleshoot</a>
+</li>
+
+                    
+                    </ul>
+                </li>
+            
+            
+            
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Use <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    
+                        
+<li >
+    <a href="../../use/overview/">Overview</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../../use/access/">Login to rig</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../../use/openaps-pill/">OpenAPS pill</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../../use/papertrail/">Papertrail</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../../use/carbs/">Carb & Bolus</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../../use/priming/">Priming and Sites</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../../use/exercise/">Exercise</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../../use/cgm/">CGM Tips</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../../use/offline/">Offline Looping</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../../use/travel/">Travel & Time Changes</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../../use/update/">Updating loop</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../../use/multiple-rigs/">Multiple Rigs</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../../use/openhumans/">OpenHumans</a>
+</li>
+
+                    
+                    </ul>
+                </li>
+            
+            
+            </ul>
+
+            <!-- Search, Navigation and Repo links -->
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                        <i class="fa fa-search"></i> Search
+                    </a>
+                </li>
+                <li >
+                    <a rel="next" href="../wifi/">
+                        <i class="fa fa-arrow-left"></i> Previous
+                    </a>
+                </li>
+                <li >
+                    <a rel="prev" href="../linux/">
+                        Next <i class="fa fa-arrow-right"></i>
+                    </a>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+</div>
+
+        <div class="container">
+            <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+    
+        <li class="main active"><a href="#mobile-hotspot">Mobile Hotspot</a></li>
+        
+            <li><a href="#check-your-service-provider">Check your service provider</a></li>
+        
+            <li><a href="#hotspot-tethering">Hotspot Tethering</a></li>
+        
+            <li><a href="#wifi-vs-bt-hotspot">Wifi vs. BT Hotspot</a></li>
+        
+            <li><a href="#tethering-on-androids">Tethering on Androids</a></li>
+        
+    
+    </ul>
+</div></div>
+            <div class="col-md-9" role="main">
+
+<h1 id="mobile-hotspot">Mobile Hotspot</h1>
+<p align="center">
+<img src="../img/watch.png" width="150">
+</p>
+
+<p>Cell phones can use their cell data to act as a portable internet connection.  Mobile hotspot comes preinstalled on most compatible devices. Depending on your device, it may be an app in your App menu or an option under Settings. It may also be named something different than Mobile Hotspot, like Personal Hotspot (iOS), Internet Sharing (Windows) or Portable Wi-Fi Hotspot (Google Nexus devices). But these all do the same thing.  Unfortunately, the mobile hotspot feature is not standardized across all phones or all cellular service providers.  Some service providers charge extra for this feature, some limit the amount of data that can be used on personal hotpsot each month, and others only allow hotspotting through a wifi connection (and not through BT tethering).  </p>
+<h2 id="check-your-service-provider">Check your service provider</h2>
+<p>An absolute must-do ahead of your rig build...<strong>CHECK YOUR CELLULAR SERVICE PROVIDER'S PERSONAL HOTSPOT FEATURE</strong>.</p>
+<p>Either call-in or login to your account and double check how your particular personal hotpsot feature is enabled for your device.  Check if there are any fees or restrictions.  Many providers will have areas in your online account where you simply need to toggle the feature "on" in order to use the personal hotspot service.  Other services like Ting, <a href="https://help.ting.com/hc/en-us/articles/205422068-FAQ-Tethering-and-Personal-Hotspots-">restrict BT-tethered hotspot use to 3G data only (not LTE)</a> and you have to specifically turn off LTE service to use the feature.  Checking with your provider ahead will potentially save you a lot of troubleshooting time later.</p>
+<h2 id="hotspot-tethering">Hotspot Tethering</h2>
+<p>A device (like your rig) can be connected (tethered) to your phone's hotspot in one of 3 ways; wifi, BT, or USB:</p>
+<ul>
+<li>
+<p><strong>wifi</strong>:  The wifi tethering signal for the hotspot is not constantly broadcast by your phone, however.  So when you want to use the wifi connection to your hotspot (for example, you are leaving your home wifi network and traveling), you will need to <strong>manually toggle your hotspot <code>off-on</code></strong> so that the phone will broadcast a wifi signal for the rig to connect to.  The other consideration is that since this is a wifi connection, the rig will not automatically disconnect when you come into one of your other known wifi networks.  You will have to remember to manually disconnect (toggle hotspot off), if you do not wish to continue using cell data when you are home.  Hotspot done by wifi connections also use more phone battery than a BT tether connection.</p>
+</li>
+<li>
+<p><strong>BT</strong>:  BT tethering requires your phone and rig to be BT-paired before they can connect (and you'll specifically set that up later in these docs).  The advantage of connecting to your hotspot via BT tether is that it will happen automatically.  You do not have to remember to toggle hotspot.  Simply <strong>leave your hotspot toggled <code>on</code></strong> as usual, leave the house, and within a few minutes (or sooner) your rig will BT tether to the hotspot.  You'll see a blue bar across the top of your iPhone screen indicating a device is connected via personal hotspot. Your rig will then use your cell phone as its internet connection.  When your rig comes back into a known wifi network, it will automatically drop the BT tether and connect with the wifi network.  Screenshot below shows what you'll see in your network logs as you move from known wifi network to BT tether.  oref0-online will automatically find BT tether and connect.</p>
+</li>
+<li>
+<p><strong>USB</strong>: You can plug devices directly into your cell phone to use hotspot.  However, the phone would pull battery power from your rig and would drain your battery fairly quickly.  This is not a recommended connection method for OpenAPS use.</p>
+</li>
+</ul>
+<h2 id="wifi-vs-bt-hotspot">Wifi vs. BT Hotspot</h2>
+<ul>
+<li>
+<p>If you choose <strong>wifi tether</strong>, you must manually turn it on; wait for the rig to connect; and when you get home, you must manually turn it off or your rig will not switch to home wifi. This also consumes more battery on the phone.</p>
+</li>
+<li>
+<p>If you choose to <strong>BT tether</strong>, it takes extra steps to setup ahead of time, but your rig will automatically connect when it loses connections to any known wifi networks (i.e. walking out the door) without you even having to pull the phone out of your pocket; it automatically allows the rig move to a known wifi network when one comes back in range; and it consumes less battery on the phone compared to wifi-connected hotspot.</p>
+</li>
+</ul>
+<h2 id="tethering-on-androids">Tethering on Androids</h2>
+<p>Some android phones running marshmallow may want to check out this website for <a href="http://techiezlounge.com/enable-tethering-android-6-0-marshmallow/">information on tethering</a></p></div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            
+            <center>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</center>
+        </footer>
+
+        <script src="../../js/jquery-1.10.2.min.js"></script>
+        <script src="../../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../../js/highlight.pack.js"></script>
+        <script>var base_url = '../..';</script>
+        <script data-main="../../mkdocs/js/search.js" src="../../mkdocs/js/require.js"></script>
+        <script src="../../js/base.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                        <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            From here you can search these documents. Enter
+                            your search terms below.
+                        </p>
+                        <form role="form">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
+                            </div>
+                        </form>
+                        <div id="mkdocs-search-results"></div>
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
